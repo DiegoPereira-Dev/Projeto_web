@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Comeco do cabecalho */
+div#header {
+    height: 120px;
+    width: 600px;
+    float: left;
+} 
+
+div.options {
+    height: 120px;
+    background:url("imagens/Copia.jpg");
+    background-repeat: repeat-x;
+   /*  border: 1px solid red; */
+
+} 
+
+.options img {
+    height: 120px;
+    width: 400px;
+    margin-left:90px;
+    
+
+}
+
+.options a{
+    padding: 15px;
+    margin-top: 28px;
+    margin-right:28px ;
+    float:right ;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+/* Fim do cabecalho */
+
+/* poster  */
+
+#Poster img {
+    width: 1224.5px; 
+    height: 324.64px;
+    /* border: 1px solid red; */
+}
+
+/* Fim do poster */
+
+/* Boas Vindas */
+
+#good h2{
+    color:#043465;
+    
+}
+
+#good h3 {
+    color: #72130D;
+    margin-top: 0px;
+}
+
+#good h2,h3 {
+    display: -moz-grid-line; 
+    /* border: 1px solid red; */
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 45px;
+    line-height: 30px;
+    
+}
+
+#good p{
+    width: 500px;
+    height: 00px;
+    border: 1px solid red; 
+    float: left;
+    line-height: 23px;
+    margin-left:45px;
+}
+
+.img-good {
+    float: right;
+    border: 2px solid gainsboro;
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+
+.img-good img {
+    width: 500px;
+    height: 300px;
+}
+
+#good button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 120px;
+    border-radius:5px;
+    border-style: ridge;
+    background: #72130D;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+
+/* Fim das boas vindas */
+
+#back-cards {
+    background: #043465;
+    border-top:5px double gray ;
+}
+
+.clear {
+    clear: both;
+}
+
+.cards {
+     background: #043465;
+     width: 265px;
+     padding:5px ;
+     float: left;
+     margin: 15px;
+     padding: 50px;
+     border: 5px double gray;
+     
+}
+
+.cards img {
+    width: 200px;
+    margin-left: 25px;
+    border: 2px solid gray;
+} 
+
+.cards h2 {
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.cards p{
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.cards a { 
+    text-decoration: none;
+}
+
+.cards button {
+   display: block;
+   margin-left:auto ;
+   margin-right: auto;
+   margin-top: 10px;
+   width: 100px;
+   height: 30px;
+   border-radius: 4px;
+   background:#00FFFF ;
+   font-size: 15px;
+   font-family: 'Courier New', Courier, monospace;
+   /* text-decoration:none; */
+   font-style: italic;
+
+}
+
+
+
+
+
