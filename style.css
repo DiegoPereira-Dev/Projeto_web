@@ -8,6 +8,10 @@ html,body {
     padding: 0;
 }
 
+#main {
+    width: 100%;
+}
+
 /* Comeco do cabecalho */
 div#header {
     height: 120px;
@@ -55,6 +59,10 @@ div.options {
 /* Fim do poster */
 
 /* Boas Vindas */
+
+#good {
+    float: left;
+}
 
 #good h2{
     color:#043465;
